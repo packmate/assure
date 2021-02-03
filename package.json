@@ -1,0 +1,17 @@
+{
+  "name": "@jrh-works/assure",
+  "version": "0.0.5",
+  "description": "Simple Node.js object property validations, with companion Chai assertions.",
+  "main": "source/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jrh-works/assure.git"
+  },
+  "scripts": {
+    "test": "mocha -r tests/tests.support source/*.test.js"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1"
+  }
+}
